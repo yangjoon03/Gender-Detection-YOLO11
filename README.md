@@ -17,16 +17,18 @@ conda install -c conda-forge openvino=2024.6.0
 pip install openvino==2024.6.0
 ```
 
-## openvino로 intel gpu활용
-* 최신 cpu일 경우 pip install openvino(setupvars.bat 하지 않아도됨)
-* 과거 cpu일 경우 과거 버전을 archive를 통해서 다운로드
-  * call 경로 /setupvars.bat을 통해 활성화
-https://storage.openvinotoolkit.org/repositories/openvino/packages/2024.1/windows/
- 
 ## install
 python version = 3.9
 ```bush
 pip install openvino==2024.6.0
 pip install ultralytics
 ```
+
+## openvino로 intel gpu활용 -  해당 방식은 특정 조건에서만 사용
+* 최신 cpu일 경우 pip install openvino(setupvars.bat 하지 않아도됨)
+* 과거 cpu일 경우 과거 버전을 archive를 통해서 다운로드
+  * call 경로 /setupvars.bat을 통해 활성화
+https://storage.openvinotoolkit.org/repositories/openvino/packages/2024.1/windows/
+ 
+
 
