@@ -24,7 +24,7 @@ pip install openvino==2024.6.0
 https://storage.openvinotoolkit.org/repositories/openvino/packages/2024.1/windows/
  
 ## install
-python version = 3.8
+python version = 3.9
 ```bush
 pip install openvino==2024.6.0
 pip install ultralytics
